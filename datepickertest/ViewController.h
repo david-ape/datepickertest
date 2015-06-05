@@ -2,13 +2,19 @@
 //  ViewController.h
 //  datepickertest
 //
-//  Created by David Hayward (APE) on 5/06/2015.
-//  Copyright (c) 2015 Applied Project Experience. All rights reserved.
+//  Copyright (c) 2015 Applied Project Experience.
 //
+//  Permission is hereby granted, free of charge, to any person obtaining a copy
+//  of this software and associated documentation files (the "Software"), to
+//  deal in the Software without restriction, including without limitation the
+//  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+//  sell copies of the Software, and to permit persons to whom the Software is
+//  furnished to do so.
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UIPopoverControllerDelegate,
+                                              UIPopoverPresentationControllerDelegate>
 
 
 @end
